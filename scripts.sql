@@ -7,7 +7,7 @@ select name from student s
 Получить всех студентов, у которых в имени присутствует буква «О» (или любая другая).
 select name from student s where name like '%o%'
 
-Получить всех студентов, у которых возраст меньше идентификатора.
+
 select * from student s where age < id
 
 Получить всех студентов упорядоченных по возрасту.
