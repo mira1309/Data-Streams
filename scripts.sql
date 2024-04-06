@@ -10,5 +10,5 @@ select name from student s where name like '%o%'
 Получить всех студентов, у которых возраст меньше идентификатора.
 select * from student s where age < id
 
-Получить всех студентов упорядоченных по возрасту
+Получить всех студентов упорядоченных по возрасту.
 select  * from student s order by age
